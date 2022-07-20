@@ -121,6 +121,32 @@ live-container section
   box-shadow:5px 5px 10px lightgray ;
 }
 
+
+                         /* For Match Pages */
+.live-flag{
+    
+  width: 312px;
+    height: 361px;
+    margin: 10px;
+    box-shadow:5px 5px 10px lightgray ;
+    display:flex;
+     justify-content:center;
+    align-items:center; 
+  
+}
+.flag-image-container{
+    display:flex;
+}
+.flag-container-banner{
+    width: 75%;
+    margin-left:26px;
+    
+      display: flex;
+      flex-wrap: wrap;
+
+
+}
+
 .live-container h3{
     font-family: 'Poppins';
 font-style: normal;
@@ -143,7 +169,21 @@ button {
   margin-top: 0px;-
 }
 
+/*  View Container */
 
+.view-container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 131px;
+    height: 47px;
+    
+    background-color: #DD0000;
+    border-radius: 5px;
+    color:white;
+    margin-top:30px;
+    margin-left:150px;
+}
 
 
 /* -----------------
@@ -189,6 +229,51 @@ flex-direction: column;
                                                        Media Quries  
                                                        
                                                        ---------------------------------------------------------------------------------------------------*/
+
+
+
+
+/* -----------------------Mobile Devices ------------
+       ------------------------------------------- */
+     
+/* 
+       
+
+       @Media only screen and (max-width:688px){
+        main {
+            width: 500px;
+            margin: 0% 13% 13% 13%;
+            display:flex;
+        }
+    
+    .top-banner {
+        background: #161616;
+        border-radius: 30px;
+        margin-bottom: 40px;
+        padding-bottom: 0px;
+        width: 549px;
+    }
+    .top-section {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 30px;
+        margin-bottom: 0px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .view-container{
+        display:none;
+    }
+    
+    footer{
+        width:100%;
+    }
+    }
+
+ */
+
+
 
        /* -----------------------Tablet Devices ------------
        ------------------------------------------- */
@@ -267,35 +352,17 @@ element.style {
 }
 
        }
-/* -----------------------Mobile Devices ------------
-       ------------------------------------------- */
-     
+
 
        
 
-@Media only screen and (max-width:688px){
-    main {
-        width: 500px;
-        margin: 0% 13% 13% 13%;
-        display:flex;
-    }
+       /* -----------------------Tablet Devices ------------
+       ------------------------------------------- */
 
-.top-banner {
-    background: #161616;
-    border-radius: 30px;
-    margin-bottom: 40px;
-    padding-bottom: 0px;
-    width: 549px;
+
+       @Media only screen and (min-width:992px){
+.view-container{
+    display:none;
 }
-.top-section {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 30px;
-    margin-bottom: 0px;
-    align-items: center;
-    flex-direction: column;
-}
-footer{
-    width:100%;
-}
-}
+
+       }
