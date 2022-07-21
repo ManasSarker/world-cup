@@ -222,8 +222,20 @@ flex-direction: column;
     color:white;
 }
 
-
-
+.icons {
+    display:flex;
+    justify-content:space-between;
+    flex-direction:row;
+}
+.icon-bar{
+    margin-right:16px;
+    
+}
+.fa-youtube , .fa-instagram , .fa-twitter-square{
+    height:30px;
+    width:30px;
+    color:white;
+}
 /* ---------------------------------------------------------------------------------------------------------------------
 
                                                        Media Quries  
